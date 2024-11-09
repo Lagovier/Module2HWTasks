@@ -1,9 +1,9 @@
-num1 = int(input("Введите число 1:"))
-num2 = int(input("Введите число 2:"))
-num3 = int(input("Введите число 3:"))
-if num1 == num2 and num2 == num3:
+number1 = int(input("Введите число 1:"))
+number2 = int(input("Введите число 2:"))
+number3 = int(input("Введите число 3:"))
+if number1 == number2 and number2 == number3:
     print("3 числа равны")
-elif num1 == num2 or num1 == num3 or num2 == num3:
+elif number1 == number2 or number1 == number3 or number2 == number3:
     print("2 числа равны")
 else:
     print("0 равных чисел")
