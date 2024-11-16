@@ -4,8 +4,8 @@ not_primes = []
 
 for i in numbers:
     is_prime = True
-    for j in range(2, i):
-        if i / j > 1 and i % j == 0:
+    for j in range(2, i - 1):
+        if i % j == 0:
             is_prime = False
             break
     if is_prime == True and i > 1:
