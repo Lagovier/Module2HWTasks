@@ -6,7 +6,7 @@ def get_num_list(number):
 
 while True:
     q_number = int(input("Введите число от 3 до 20: "))
-    if q_number >= 3 and q_number <= 20:
+    if 3 <= q_number <= 20:
         num_list = get_num_list(q_number)
         answer = []
         for i in range(1, q_number + 1):
