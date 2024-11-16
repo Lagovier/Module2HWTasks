@@ -8,7 +8,7 @@ for i in range(2, len(numbers)+1):
         if i / j > 1 and i % j == 0:
             is_prime = False
             break
-    if is_prime == True:
+    if is_prime == True: #не понимаю, почему подчёркивает
         primes.append(i)
     else:
         not_primes.append(i)
